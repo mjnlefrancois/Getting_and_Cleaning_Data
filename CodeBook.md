@@ -74,7 +74,7 @@ This script performs these steps to clean up the data and present it in a summar
 * *tgravityaccmag-mean*	: Mean value of all gravity acceleration magnitude  measurements (time signal)
 * *tgravityaccmag-std*	: Standard deviation of all gravity acceleration magnitude  measurements (time signal)
 * *tbodyaccjerkmag-mean*	: Mean value of all body acceleration jerk magnitude  measurements (time signal)
-* tbodyaccjerkmag-std*	: Standard deviation of all body acceleration jerk magnitude  measurements (time signal)
+* *tbodyaccjerkmag-std*	: Standard deviation of all body acceleration jerk magnitude  measurements (time signal)
 * *tbodygyromag-mean*	: Mean value of all body gyroscope magnitude  measurements (time signal)
 * *tbodygyromag-std*	: Standard deviation of all body gyroscope magnitude  measurements (time signal)
 * *tbodygyrojerkmag-mean*	: Mean value of all body gyroscope jerk magnitude  measurements (time signal)
