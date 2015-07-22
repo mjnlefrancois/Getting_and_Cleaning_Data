@@ -15,7 +15,7 @@ After you have downloaded the zip file to your computer (replacing yourname by y
 + All the unzipped files should now be found under C:\\Users\\yourname\\Documents\\R\\UCI HAR Dataset\\. That folder should only include 2 subfolders (train, test - which each have their own files), along with 4 text files.
 + Get the run_analysis.R code from my Github repos (you can copy and paste the code found in that file to a text file with the same name, and save it under C:\\Users\\yourname\\Documents\\R\\UCI HAR Dataset\\
 + Start R Studio
-+ Set your working directory in R Studio using this command: setwd("C:\/Users\/yourname\/Documents\/R\/UCI HAR Dataset\/") **Path is OS dependent - you may have to adapt**
++ Set your working directory in R Studio using this command: setwd("C:/Users/yourname/Documents/R/UCI HAR Dataset/") **Path is OS dependent - you may have to adapt**
 + The R Script requires packages plyr and dplyr. **Please insure you have downloaded these packages using Tools - Install Packages in R Studio (if you don't already have in the past)**
 + Write the following command in R Studio: source("run_analysis.R") **This will take few seconds to run**
 + The code will produce a file called **subj_activ_averages.txt** which can be read using the following commands in RStudio:  data <- read.table("subj_activ_averages.txt", header=TRUE); View(data)
